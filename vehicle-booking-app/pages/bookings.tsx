@@ -52,7 +52,7 @@ export default function Bookings() {
                         {/* Recent Bookings */}
                         <Grid item xs={12}>
                             <Paper sx={{ p: 2, display: 'flex', flexDirection: 'column' }}>
-                                <BookingsTable reports={reports} approvals={approvals} />
+                                <BookingsTable reports={reports} approvals={approvals} setApprovals={setApprovals} />
                             </Paper>
                         </Grid>
                     </Grid>
