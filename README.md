@@ -1,6 +1,6 @@
 # SkwnFullstackDev-Vrizas-Izza-Izzuddin
 
-> **Note**
+> **Note**\
 > Physical Data Model (PDM) & Activity Diagram sudah ada di folder masing-masing. Untuk log aplikasi dapat diakses di path /logs ([http://localhost:8000/logs](http://localhost:8000/logs)) pada aplikasi backend.
 
 ## Daftar Informasi
@@ -50,7 +50,8 @@ php artisan serve --port=8000
 ```
 
 ### Vehicle Booking App (Frontend)
-Aplikasi frontend bisa diakses melalui laman [https://vehicle-booking.vercel.app](https://vehicle-booking.vercel.app)
+Aplikasi frontend bisa diakses melalui laman [https://vehicle-booking.vercel.app](https://vehicle-booking.vercel.app).
+
 Untuk instalasi:
 1. Buka folder vehicle-booking-app menggunakan Code Editor
 2. Jalankan pada terminal
