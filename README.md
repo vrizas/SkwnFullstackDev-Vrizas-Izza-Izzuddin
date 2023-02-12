@@ -39,7 +39,7 @@ cp .env.example .env
 ```terminal
 php artisan key:generate
 ```
-6. Import database vehicle-booking.sql
+6. Buat database sesuai dengan konfigurasi pada file .env
 7. Jalankan pada terminal
 ```terminal
 php artisan migrate:fresh --seed
@@ -50,7 +50,7 @@ php artisan serve --port=8000
 ```
 
 ### Vehicle Booking App (Frontend)
-Aplikasi frontend bisa diakses melalui laman [http://localhost:8000/logs](http://localhost:8000/logs)
+Aplikasi frontend bisa diakses melalui laman [https://vehicle-booking.vercel.app](https://vehicle-booking.vercel.app)
 Untuk instalasi:
 1. Buka folder vehicle-booking-app menggunakan Code Editor
 2. Jalankan pada terminal
