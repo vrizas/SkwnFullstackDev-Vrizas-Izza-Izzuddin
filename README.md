@@ -52,7 +52,7 @@ php artisan serve --port=8000
 ### Vehicle Booking App (Frontend)
 Aplikasi frontend bisa diakses melalui laman [https://vehicle-booking.vercel.app](https://vehicle-booking.vercel.app).
 
-Untuk instalasi:
+Untuk instalasi secara lokal:
 1. Buka folder vehicle-booking-app menggunakan Code Editor
 2. Jalankan pada terminal
 ```terminal
