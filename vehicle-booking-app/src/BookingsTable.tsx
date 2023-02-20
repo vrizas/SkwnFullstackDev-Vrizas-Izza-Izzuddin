@@ -144,17 +144,17 @@ export default function BookingsTable({ approvals, reports, setApprovals }: Prop
             <Stack
                 direction={{ xs: 'column', sm: 'row' }}
                 justifyContent="space-between"
-                alignItems="center"
+                alignItems={{ xs: 'left', sm: 'center' }}
                 spacing={2}
             >
                 <Title>Recent Bookings</Title>
                 <Stack
                     direction={{ xs: 'column', sm: 'row' }}
-                    alignItems="center"
+                    alignItems={{ xs: 'left', sm: 'center' }}
                     spacing={1}
                 >
-                    <Button onClick={() => api.exportExcelReports()}>Download</Button>
-                    <Button onClick={() => router.push('/bookings/create')}>Make a Booking</Button>
+                    <Button onClick={() => api.exportExcelReports()} style={{width: 'fit-content'}}>Download</Button>
+                    <Button onClick={() => router.push('/bookings/create')} style={{width: 'fit-content'}}>Make a Booking</Button>
                 </Stack>
             </Stack>
             <TableContainer>
